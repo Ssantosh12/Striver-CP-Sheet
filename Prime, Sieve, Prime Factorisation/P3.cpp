@@ -6,7 +6,7 @@ int main(){
     int j,t,i;
     scanf("%d",&t);
   
-    //Using Pre Computation technique
+    //Using Pre Computation technique (doing time taking works before the test cases)
     //generating all primes upto 10^6 using Sieve of Eratosthenes
   
     bool primes[1000000];
