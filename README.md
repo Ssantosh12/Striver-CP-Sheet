@@ -1,2 +1,2 @@
-# Competitive-Programming-Standard-Problems
-This project contains the solutions of some standard competitive programming problems and the algorithms to tackle those problems.
+# Striver's CP Sheet Problems
+This repository contains the solutions of some standard topic wise competitive programming problems chosen from striver.
