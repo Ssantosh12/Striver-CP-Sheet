@@ -21,6 +21,7 @@ int main(){
                     break;
             }
         }
+        //atleast need two odd digits in the number to make sum even but overall num odd
         if(cnt==2)
             printf("%d\n",num);
         else printf("-1\n");
