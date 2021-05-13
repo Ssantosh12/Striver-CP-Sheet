@@ -1,6 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+//idea is somewhat similar to TWO SUM using hasing problem, it's just that there was single target sum
+//here we create two arrays of squares and cubes upto the sum of max two elements, & we use each sqr and cube in their arrays as the target
+//to find if (target-curr val) is present in the array or not
+//NOTE: arrays of squares and cubes cannot have same values(ex 8^2=64, 4^3=64) because then cnt of pairs will increase then the correct ans
+
 int bsearch(vector<int> a,int n,int x){
     int mid,left=0,right=n-1;
     while(left<=right){
